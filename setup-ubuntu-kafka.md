@@ -3,6 +3,15 @@
 - sudo apt update
 - sudo apt install default-jdk
 
+### Setup JDK
+
+sudo apt install openjdk-8-jdk
+export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
+echo $JAVA_HOME
+export PATH=$PATH:$JAVA_HOME/bin
+echo $PATH
+
+
 
 ## Download Kafka 
 
@@ -24,3 +33,9 @@ bin/kafka-server-start.sh config/server.properties
 [2018-03-13 10:47:45,989] INFO Kafka version : 1.0.1 (org.apache.kafka.common.utils.AppInfoParser)
 [2018-03-13 10:47:45,995] INFO Kafka commitId : c0518aa65f25317e (org.apache.kafka.common.utils.AppInfoParser)
 [2018-03-13 10:47:46,006] INFO [KafkaServer id=0] started (kafka.server.KafkaServer)
+.
+
+1- Download Kafka
+2- Download Zookeeper
+3- Extract Both Kafka and Zookeeper
+4- 
