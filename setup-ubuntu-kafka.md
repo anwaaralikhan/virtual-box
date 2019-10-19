@@ -40,3 +40,7 @@ bin/kafka-server-start.sh config/server.properties
 3- Extract Both Kafka and Zookeeper
 4- tar -xzf kafka_xxxxxxx.tgz
 5- tar -xzf zookeeper_xxx.tgz
+
+
+goto kafka folder
+bin/zookeeper-server-start.sh config/zookeeper.properties
