@@ -44,3 +44,7 @@ bin/kafka-server-start.sh config/server.properties
 
 goto kafka folder
 bin/zookeeper-server-start.sh config/zookeeper.properties
+
+
+
+### Setup SSH on Ubuntu VM
