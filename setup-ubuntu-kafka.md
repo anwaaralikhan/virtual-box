@@ -56,3 +56,5 @@ If you have a dhcp server it should supply an address etc. to the virtual machin
 
 Reference
 [https://serverfault.com/questions/225155/virtualbox-how-to-set-up-networking-so-both-host-and-guest-can-access-internet]1
+
+# TODO explore NAT and Port forwarding
