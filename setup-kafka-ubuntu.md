@@ -23,11 +23,15 @@ mv kafka_2.12-2.2.1 /usr/local/kafka
 
 Kafka uses ZooKeeper, so first, start a ZooKeeper server on your system. You can use the script available with Kafka to get start single-node ZooKeeper instance.
 
+```
 cd /usr/local/kafka
 bin/zookeeper-server-start.sh config/zookeeper.properties
+```
 Now start the Kafka server:
 
+```
 bin/kafka-server-start.sh config/server.properties
+```
 
 ...
 [2018-03-13 10:47:45,989] INFO Kafka version : 1.0.1 (org.apache.kafka.common.utils.AppInfoParser)
