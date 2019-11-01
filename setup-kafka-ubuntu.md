@@ -43,6 +43,7 @@ bin/kafka-server-start.sh config/server.properties
 [2018-03-13 10:47:46,006] INFO [KafkaServer id=0] started (kafka.server.KafkaServer)
 ```
 
+
 1- Download Kafka
 2- Download Zookeeper
 3- Extract Both Kafka and Zookeeper
