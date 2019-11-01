@@ -15,9 +15,11 @@ echo $PATH
 
 ## Download Kafka 
 
+```
 wget http://www-us.apache.org/dist/kafka/2.2.1/kafka_2.12-2.2.1.tgz
 tar xzf kafka_2.12-2.2.1.tgz
 mv kafka_2.12-2.2.1 /usr/local/kafka
+```
 
 ## Step 3 – Start Kafka Server
 
